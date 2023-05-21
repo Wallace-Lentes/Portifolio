@@ -63,4 +63,11 @@ img{
     height: 500px;
 }
 
-/* Estilização da página contato */
+/* Estilização da página sobre mim */
+
+.biografia{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
