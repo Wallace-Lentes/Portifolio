@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    
     background-color: #365f7c;
 }
 header{
@@ -51,13 +52,24 @@ a{
     align-items: center;
     justify-content: center;
 }
+.foto-nene{
+    display: flex;
+    flex-direction: column;
+    /* width: 100px; */
+    height: 500px;
+    
+    align-items:flex-start;
+}
 main{
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     align-items:flex-start;
     justify-content: space-evenly;
 }
 img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     padding:unset;
     width: auto;
     height: 500px;
