@@ -116,3 +116,43 @@ img{
  #botao-2:hover{
     background-color: green;
  }
+.imagem{
+    display: flex;
+    align-items:flex-start;
+    /* justify-content: space-evenly; */
+    padding: 450px 10px 10px 100px;
+    margin: 1px;
+}
+/* #imagem-1{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 200px 15px;
+    margin: 1px;
+} */
+.ctt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contatos{
+    background-color: antiquewhite;
+    padding: 1px 1px 1px 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+/* alinhamento de texto */
+p{
+    padding: 10px 10px;
+    text-align:justify;
+    color: aliceblue;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
+}
