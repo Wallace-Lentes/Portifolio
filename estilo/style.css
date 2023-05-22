@@ -137,8 +137,9 @@ img{
     
 }
 .contatos{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     padding: 1px 1px 1px 1px;
+    
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -147,7 +148,7 @@ img{
 
 /* alinhamento de texto */
 p{
-    padding: 10px 10px;
+    padding: 8px 50px;
     text-align:justify;
     color: aliceblue;
 }
@@ -155,4 +156,15 @@ h2{
     text-align: center;
     color: aliceblue;
     text-decoration: underline;
+}
+
+
+
+/* Rodapé */
+footer{
+    background-color: rgb(35, 30, 30);
+   
+}
+.footer{
+    text-align: center;
 }
