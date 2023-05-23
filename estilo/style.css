@@ -6,7 +6,7 @@
 .home{
     background-image: url(..//img/WhatsApp\ Image\ 2023-05-21\ at\ 13.17.26.jpeg);
     background-repeat: no-repeat;
-    background-size: 1400px 1000px;
+    background-size: 1270px 1000px;
 }
 body{
     
@@ -17,7 +17,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     height: 70px;
-    width: 1400px;
+    /* width: 1400px; */
 }
 h1{
     color: rgb(66, 55, 55);
@@ -140,39 +140,42 @@ main{
     width: 6rem;
     border: none;
     border-radius: 20px;
-    transition: .5s;
+    transition: .3s;
+    
  }
  #botao-1:hover{
+    transform: scale(1.2);
     background-color: red;
  }
  #botao-2:hover{
+    transform: scale(1.2);
     background-color: green;
  }
 .imagem{
     display: flex;
     align-items:flex-start;
-    /* justify-content: space-evenly; */
-    padding: 500px 10px 10px 100px;
+    padding: 5px 10px;
     margin: 1px;
+    width: 80px;  
+}
+.imagem:hover{
+    transform: scale(2);
+
 }
 #imagem-1{ 
     gap: 10px;
-    padding: 10px;
     display: flex;
     justify-content: space-evenly;
-    padding: 20px ;
-    margin: 1px;
-} 
+    margin: 1px;    
+}  
 .ctt{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    gap: 10px;
 }
 .contatos{
-    background-color: antiquewhite;
     padding: 1px 1px 1px 1px;
-    
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -185,36 +188,44 @@ p{
     padding: 8px 50px;
     text-align:justify;
     color: aliceblue;
+   
 }
 h2{
     
     text-align: center;
     color: aliceblue;
-    text-decoration: underline;
+    
 }
 
 /* estilizaçao pagina hobbie */
 .hobbie{
     display: flex;
     flex-direction: column;
+    /* margin: 1px; */
+    gap: 25px;
+}
+.hbb{
+    /* padding: 8px 50px; */
+    text-indent: 10px;
+}
+.imagem-hbb{
+    display: flex;
+    align-items:flex-start;
+    padding: 5px 10px;
+    margin: 1px;
+    width: 250px; 
 }
 .hobbie-img{
     display: flex;
     flex-direction: row;
-    padding: 20px 20px;
-    align-items: center;
-    gap: 10px; 
-    
-    /* width: 1000px; */
-    /* height: 600px; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    
+    padding: 2px 20px;
+    align-items:center;
+    gap: 5px;     
 }
 
 /* Rodapé */
 footer{
+    height: 50px;
     background-color: rgb(35, 30, 30);
    
 }
