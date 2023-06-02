@@ -1,40 +1,35 @@
+/* definir estilos iniciais para todos os elementos da página */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.home{
-    background-image: url(..//img/WhatsApp\ Image\ 2023-05-21\ at\ 13.17.26.jpeg);
-    background-repeat: no-repeat;
-    background-size: 1270px 1000px;
-}
-body{
-    
+/* Estilização da página home  */
+body{    
     background-color: #365f7c;
 }
 header{
+    padding: 20px;
     background-color: #2c4659;
     display: flex;
     justify-content: space-evenly;
     height: 70px;
-    /* width: 1400px; */
 }
 h1{
     color: rgb(66, 55, 55);
-    display: flex;
+    /* display: flex; */
     font-family: 'Lato', sans-serif;
     font-size: 50px;
     font-weight: 600;
-    align-items: center;
+   
 }
 nav{
     
+    width: 800px;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    
-    
-    
+    align-items: center;    
 }
 a{
     display: flex;
@@ -43,44 +38,34 @@ a{
     font-size: 20px;
     font-weight: 500;
 }
-
-
-.nome{
-    width: 1000px;
-   
+.botoesHeader:hover{
+    transform: scale(1.2);
 }
-.segunda-section{
-    width: 10px;
-    height: 600px;
+
+main{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: center; 
+    padding: 30px;
+    gap: 10px;
+}
+.ftt{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
     justify-content: center;
 }
 
-.foto-nene{
-    display: flex;
-    flex-direction: column;
+.foto-nene{     
     height: 500px;
+    width: 300px;
+ 
+}
 
-}
-.tentativa{
-    
-    display: flex;
-    width: 1000px;
-    justify-content: 10px;
-    
-}
 .descricao{
     color: black;
 }
-.left{
-    width: 500px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
 .right{
     width: 30vw;
     height: 100vh;
@@ -88,33 +73,22 @@ a{
     justify-content: center;
 
 }
-main{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    padding: 70px;
-}
+
 .minha-foto{
     display: flex;
     padding:unset;
     width: auto;
     height: 500px;
 }
-.foto-nene{
-    display: flex;
-    padding:unset;
-    width: 300px;
-    height: 350px;
-}
 
 /* Estilização da página sobre mim */
-
-.biografia{
+.sobreMim{
     display: flex;
-    flex-direction: column;
+    gap: 1px;
     margin: 10px;
-    
+    text-align: justify;
 }
+
 
 /* estilização da pagina contato */
 .mensagem{
@@ -143,11 +117,11 @@ main{
     transition: .3s;
     
  }
- #botao-1:hover{
+ #botaoCancelar:hover{
     transform: scale(1.2);
     background-color: red;
  }
- #botao-2:hover{
+ #botaoEnviar:hover{
     transform: scale(1.2);
     background-color: green;
  }
@@ -186,9 +160,7 @@ main{
 p{
     font-family: 'Lato', sans-serif;
     padding: 8px 50px;
-    text-align:justify;
     color: aliceblue;
-   
 }
 h2{
     
@@ -199,16 +171,15 @@ h2{
 
 /* estilizaçao pagina hobbie */
 .hobbie{
+    padding: 40px;
     display: flex;
     flex-direction: column;
-    /* margin: 1px; */
     gap: 25px;
+    line-height: 30px;
+    text-align: center;
+  
 }
-.hbb{
-    /* padding: 8px 50px; */
-    text-indent: 10px;
-}
-.imagem-hbb{
+.imagem-hobbie{
     display: flex;
     align-items:flex-start;
     padding: 5px 10px;
@@ -223,12 +194,16 @@ h2{
     gap: 5px;     
 }
 
-/* Rodapé */
-footer{
-    height: 50px;
-    background-color: rgb(35, 30, 30);
-   
-}
+/* Estilização do Rodapé */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+  }
+  
 .footer{
     text-align: center;
 }

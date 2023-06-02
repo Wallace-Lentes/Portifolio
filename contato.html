@@ -1,3 +1,5 @@
+<!-- Página que vai conter as formas de entrar em contato comigo por meio de redes socias, email e outros meios de comunicação -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,23 +13,25 @@
     <title>Contato</title>
 </head>
 <body>
+
+    <!-- Cabeçalho contendo meu nome e links para as páginas home, hobbie e sobre mim  -->
     <header>
         <h1>Wallace Lentes</h1>
         <nav>
-            <a href="sobremim.html">Sobre Mim</a>
-        </nav>
-        <nav>
-            <a href="hobbie.html">Hobbies</a>
-        </nav>
-        <nav>
-            <a href="index.html">Home</a>
+            <a class="botoesHeader" href="sobremim.html">Sobre Mim</a>        
+        
+            <a class="botoesHeader" href="hobbie.html">Hobbies</a>        
+        
+            <a class="botoesHeader" href="index.html">Home</a>
         </nav>
     </header>
+
+    <!-- Na main vai ficar disponivel as fotos das formas para entrar em contato e elas estarão linkadas aos seus respectivos sites, tambem ficara disponivel uma caixa de mensagem para que possam deixar recado para que eu entre em contato posteriormente. -->
     <main class="ctt">
-        <section>
+       
             <h2>Redes Sociais e</h2>
             <h2>Contato</h2>
-        </section>
+        
         <section class="contatos">
             <div id="imagem-1">  
 
@@ -61,15 +65,15 @@
             <input class="assunto" type="text" placeholder="Assunto">
             <textarea class="mensagem" name="mensagem" id="mensagem" cols="30" rows="20" placeholder="Mensagem..."></textarea>
             <div>
-                <input id="botao-1" class="botao" type="submit" value="Cancelar">
-                <input id="botao-2" class="botao" type="submit" value="Enviar">
+                <input id="botaoCancelar" class="botao" type="submit" value="Cancelar">
+                <input id="botaoEnviar" class="botao" type="submit" value="Enviar">
             </div>
         </section>
     </main>
     <footer>
-        <section>
+        
             <p class="footer">Direitos reservados</p>
-        </section>
+       
     </footer>
 
 </body>
