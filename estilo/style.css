@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.home{
+    background-image: url(..//img/WhatsApp\ Image\ 2023-05-21\ at\ 13.17.26.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1270px 1000px;
+}
 body{
+    
     background-color: #365f7c;
 }
 header{
@@ -11,6 +17,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     height: 70px;
+    /* width: 1400px; */
 }
 h1{
     color: rgb(66, 55, 55);
@@ -18,7 +25,6 @@ h1{
     font-family: 'Lato', sans-serif;
     font-size: 50px;
     font-weight: 600;
-    
     align-items: center;
 }
 nav{
@@ -37,12 +43,11 @@ a{
     font-size: 20px;
     font-weight: 500;
 }
-.primeira-section{
-    display: flex;
-    align-items: flex-start;
-    /* background-color: aliceblue; */
-    /* width: 10px; */
-    /* height: 10px; */
+
+
+.nome{
+    width: 1000px;
+   
 }
 .segunda-section{
     width: 10px;
@@ -51,16 +56,55 @@ a{
     align-items: center;
     justify-content: center;
 }
+
+.foto-nene{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+
+}
+.tentativa{
+    
+    display: flex;
+    width: 1000px;
+    justify-content: 10px;
+    
+}
+.descricao{
+    color: black;
+}
+.left{
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
 main{
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
     align-items:flex-start;
-    justify-content: space-evenly;
+    padding: 70px;
 }
-img{
+.minha-foto{
+    display: flex;
     padding:unset;
     width: auto;
     height: 500px;
+}
+.foto-nene{
+    display: flex;
+    padding:unset;
+    width: 300px;
+    height: 350px;
 }
 
 /* Estilização da página sobre mim */
@@ -70,4 +114,121 @@ img{
     flex-direction: column;
     margin: 10px;
     
+}
+
+/* estilização da pagina contato */
+.mensagem{
+    padding: 1rem;
+    margin: 1rem;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+}
+.assunto{
+    padding: 1rem;
+    margin: 1rem;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    resize: none;
+}
+ .botao{
+    font-weight: 600;
+    color: var(--corla);
+    padding: .5rem;
+    margin: 1rem;
+    width: 6rem;
+    border: none;
+    border-radius: 20px;
+    transition: .3s;
+    
+ }
+ #botao-1:hover{
+    transform: scale(1.2);
+    background-color: red;
+ }
+ #botao-2:hover{
+    transform: scale(1.2);
+    background-color: green;
+ }
+.imagem{
+    display: flex;
+    align-items:flex-start;
+    padding: 5px 10px;
+    margin: 1px;
+    width: 80px;  
+}
+.imagem:hover{
+    transform: scale(2);
+
+}
+#imagem-1{ 
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1px;    
+}  
+.ctt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.contatos{
+    padding: 1px 1px 1px 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+/* alinhamento de texto */
+p{
+    font-family: 'Lato', sans-serif;
+    padding: 8px 50px;
+    text-align:justify;
+    color: aliceblue;
+   
+}
+h2{
+    
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+/* estilizaçao pagina hobbie */
+.hobbie{
+    display: flex;
+    flex-direction: column;
+    /* margin: 1px; */
+    gap: 25px;
+}
+.hbb{
+    /* padding: 8px 50px; */
+    text-indent: 10px;
+}
+.imagem-hbb{
+    display: flex;
+    align-items:flex-start;
+    padding: 5px 10px;
+    margin: 1px;
+    width: 250px; 
+}
+.hobbie-img{
+    display: flex;
+    flex-direction: row;
+    padding: 2px 20px;
+    align-items:center;
+    gap: 5px;     
+}
+
+/* Rodapé */
+footer{
+    height: 50px;
+    background-color: rgb(35, 30, 30);
+   
+}
+.footer{
+    text-align: center;
 }
